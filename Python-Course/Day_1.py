@@ -6,3 +6,4 @@ print("Kaise ho aap sab")
 def chai(n):
     print(n)
 chai(55)
+
