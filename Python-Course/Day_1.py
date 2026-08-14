@@ -7,3 +7,5 @@ def chai(n):
     print(n)
 chai(55)
 
+for ch in "rohan":
+    print(ch)
