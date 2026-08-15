@@ -9,11 +9,11 @@ print(name)
 print(age)
 print(role)
 
-name = "Shubham Gupta"       # String
-age = 23               # Integer
-cgpa = 8.2             # Float
-is_student = True      # Boolean
-print(name)
-print(age)
-print(cgpa)
-print(is_student)
+name = "Rohan"
+message = "Hello " + name
+print(message)
+
+
+name = "Shubham"
+age = 23
+print(f"My name is {name} and I am {age} years old.")
