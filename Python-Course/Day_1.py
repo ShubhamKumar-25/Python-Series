@@ -12,13 +12,22 @@
 
 # print("Hello")
 
+# variable in pythin
+# name = "Rohan Gupta"
+# age = 22
+# price = 11.11
+# print(age)
+# print("my name is ", name)
+
 # Data type in python
 # age = 23
 # marks = 450
 # print(type(age))
 
-# variable in pythin
-nane = "Rohan Gupta"
+name = "Rahul Kumar"
 age = 22
-price = 11.11
-print(age)
+price = 89.90
+isStudent = True
+mood = None
+
+print("my name is ",name, "I am ", age, "years old and i am a ", isStudent)
