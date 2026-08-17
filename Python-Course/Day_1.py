@@ -31,3 +31,7 @@ isStudent = True
 mood = None
 
 print("my name is ",name, "I am ", age, "years old and i am a ", isStudent)
+
+print(mood)
+print(type(mood))
+print(type(isStudent))
