@@ -13,6 +13,12 @@
 # print("Hello")
 
 # Data type in python
-age = 23
-marks = 450
-print(type(age))
+# age = 23
+# marks = 450
+# print(type(age))
+
+# variable in pythin
+nane = "Rohan Gupta"
+age = 22
+price = 11.11
+print(age)
