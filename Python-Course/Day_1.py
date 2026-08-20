@@ -60,5 +60,13 @@ bhai sab
 # print("Num :", num)
 
 # logical op
-print(not False)
-print(not True)
+# print(not False)
+# print(not True)
+
+val1 = True
+val2 = True
+print("And op :", val1 and val2)
+
+val3 = False
+val4 = False
+print("OR OP :", val3 or val4)
