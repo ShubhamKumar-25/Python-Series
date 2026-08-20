@@ -72,8 +72,17 @@ bhai sab
 # print("OR OP :", val3 or val4)
 
 # type conversion
-a = int("2")
-b = 4.5
-print(a + b)
-print(type(a))
-print(type(b))
+# a = int("2")
+# b = 4.5
+# print(a + b)
+# print(type(a))
+# print(type(b))
+
+# User input in python
+# name = input("Enter your name: ")
+# print("welcome:",name)
+
+num1 = int(input("First num: "))
+num2 = int(input("Second num: "))
+sum = num1 + num2
+print("your Sum of two number is: ", sum)
