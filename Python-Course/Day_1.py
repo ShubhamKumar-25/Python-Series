@@ -63,10 +63,17 @@ bhai sab
 # print(not False)
 # print(not True)
 
-val1 = True
-val2 = True
-print("And op :", val1 and val2)
+# val1 = True
+# val2 = True
+# print("And op :", val1 and val2)
 
-val3 = False
-val4 = False
-print("OR OP :", val3 or val4)
+# val3 = False
+# val4 = False
+# print("OR OP :", val3 or val4)
+
+# type conversion
+a = int("2")
+b = 4.5
+print(a + b)
+print(type(a))
+print(type(b))
