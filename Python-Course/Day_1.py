@@ -42,11 +42,15 @@ kya hal hai
 bhai sab
 """
 
+# a = 30
+# b = 40
+# sum = a + b
+# print(sum)
 
+# num = 10
+# num += 10
+# print("Num:",num)
 
-
-
-a = 30
-b = 40
-sum = a + b
-print(sum)
+num = 50
+num -= 25
+print(num)
