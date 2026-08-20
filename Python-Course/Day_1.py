@@ -82,7 +82,20 @@ bhai sab
 # name = input("Enter your name: ")
 # print("welcome:",name)
 
-num1 = int(input("First num: "))
-num2 = int(input("Second num: "))
-sum = num1 + num2
-print("your Sum of two number is: ", sum)
+# num1 = int(input("First num: "))
+# num2 = int(input("Second num: "))
+# sum = num1 + num2
+# print("your Sum of two number is: ", sum)
+
+# side = float(input("Enter your side :"))
+# print("Area of side is :", side * side)
+
+# num1 = float(input("Enter num 1: "))
+# num2 = float(input("Enter num 2: "))
+# add = num1 + num2
+# print("Total Everage is :", add / 2)
+
+
+num3 = int(input("Enter num 1: "))
+num4 = int(input("Enter num 2: "))
+print(num3 >= num4)
