@@ -24,20 +24,29 @@
 # marks = 450
 # print(type(age))
 
-name = "Rahul Kumar"
-age = 22
-price = 89.90
-isStudent = True
-mood = None
+# name = "Rahul Kumar"
+# age = 22
+# price = 89.90
+# isStudent = True
+# mood = None
 
-print("my name is ",name, "I am ", age, "years old and i am a ", isStudent)
+# print("my name is ",name, "I am ", age, "years old and i am a ", isStudent)
 
-print(mood)
-print(type(mood))
-print(type(isStudent))
+# print(mood)
+# print(type(mood))
+# print(type(isStudent))
 
 # single line comment
 """
 kya hal hai
 bhai sab
 """
+
+
+
+
+
+a = 30
+b = 40
+sum = a + b
+print(sum)
