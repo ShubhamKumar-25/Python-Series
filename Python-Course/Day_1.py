@@ -51,6 +51,14 @@ bhai sab
 # num += 10
 # print("Num:",num)
 
-num = 50
-num -= 25
-print(num)
+# num = 50
+# num -= 25
+# print(num)
+
+# num = 10
+# num **= 5
+# print("Num :", num)
+
+# logical op
+print(not False)
+print(not True)
