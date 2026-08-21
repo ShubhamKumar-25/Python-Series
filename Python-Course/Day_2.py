@@ -93,5 +93,46 @@
 # str = input("Enter your name: ")
 # print(len(str))
 
-doller = "kya hal hai $ dosto $ aur sab thik hai$, sab kusal mangal$ hai na $"
-print(doller.count("$"))
+# doller = "kya hal hai $ dosto $ aur sab thik hai$, sab kusal mangal$ hai na $"
+# print(doller.count("$"))
+
+# age = 8
+# if(age >= 18):
+#     print("can vote and can apply to licence")
+# elif(age <= 10):
+#     print("not eligibal")
+
+
+# light = "Black"
+# if(light == "red"):
+#     print("stop")
+# elif(light == "yellow"):
+#     print("Ready")
+# elif(light == "green"):
+#     print("go")
+# else:
+#     print("Light is broken")
+
+num = (int(input("Enter your number: ")))
+if(num % 2 == 0):
+    print("Even")
+else:
+    print("odd")
+
+print("-------------------------------------")
+num2 = (int(input("Enter your number: ")))
+if(num2 % 7 == 0):
+    print("Yes")
+else:
+    print("No")
+
+print("--------------------------------------")
+a = 10
+b = 20
+c = 90
+if(a>=b and b>=c):
+    print(a)
+elif(b>=c):
+    print(b)
+else:
+    print(c)
