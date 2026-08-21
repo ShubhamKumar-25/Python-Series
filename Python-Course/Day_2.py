@@ -35,5 +35,23 @@
 
 
 # String In Python
-str = "Hey Everryone Rohan Gupta this side.\nWhat about you?"
-print(str)
+# str = "Hey Everryone Rohan Gupta this side.\nWhat about you?"
+# print(str)
+
+# str = "Rohan Gupta"
+# print(len(str))
+# str1 = "Collage"
+# print(len(str1))
+
+# indexing and length
+# str = "Rohan Gupta"
+# print(len(str))
+# print(str[4])
+# print(str[6])
+
+
+# Slicing is python
+str = "Apple"
+print(str[1 : 4])
+print(str[0 : 6])
+print(str[4 : 9])
