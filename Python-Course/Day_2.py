@@ -51,7 +51,12 @@
 
 
 # Slicing is python
-str = "Apple"
-print(str[1 : 4])
-print(str[0 : 6])
-print(str[4 : 9])
+# str = "Apple"
+# print(str[1 : 4])
+# print(str[0 : 6])
+# print(str[4 : 9])
+
+str = "Rohan_Gupta"
+print(str[3 : 8])
+print(str[: 6]) # [0 : 6] python assume that it start from zero(0)
+print(str[2: ]) # [2 : len(str)] python assume that it is end with length of the string
