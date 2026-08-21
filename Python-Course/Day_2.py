@@ -63,7 +63,35 @@
 
 
 # Ends with string
-str = "I am studying python from apnacollege"
-print(str.endswith('ege'))
-print(str.startswith('am'))
-print(str.startswith('I'))
+# print(str.endswith('ege'))
+# print(str.startswith('am'))
+# print(str.startswith('I'))
+
+
+# str = "apple"
+# str1 = "Lion"
+# print(str1)
+# print(str1.lower())
+# print(str.capitalize())
+
+# str = "I am studying python from apnacollege"
+# print(str.replace("o", "z"))
+# print(str.replace("python", "javascript"))
+
+# str = "kya hal hai bhai sab"
+# print(str.find("hai"))
+
+
+# str = "6352676727716366477474778828310"
+# print(str.count("7"))
+# print(str.count("4"))
+# print(str.count("6"))
+# print(str.count("10"))
+# print(str.count("77"))
+
+
+# str = input("Enter your name: ")
+# print(len(str))
+
+doller = "kya hal hai $ dosto $ aur sab thik hai$, sab kusal mangal$ hai na $"
+print(doller.count("$"))
