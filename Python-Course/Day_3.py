@@ -57,3 +57,50 @@ info1 = {
 # print(info1.get("Age"))
 # print(info1.values())
 # print(info1.items())
+
+
+# collection = {1,2,3,4}
+# print(collection)
+# print(type(collection))
+
+# data = {2, 4, 4, 2, "Hello", "JAVA", "java", "World", "WOrld", "Hello", 1, 2}
+# print(data)
+# print(len(data))
+
+
+# collection = set()
+# collection.add(1)
+# collection.add(2)
+# collection.add(3)
+# collection.add(4)
+# collection.add(5)
+# collection.add(3)
+# collection.add(5)
+# collection.remove(5)
+# collection.add((12,3,4,5,6))
+# collection.add("Rohan Gupta")
+# # collection.add([1,2,3,4,5,6]) # list be not allowed in set 
+# # print(collection)
+# # print(len(collection))
+# # collection.clear()
+# # print(collection.clear())
+# print(collection)
+
+# set1 = {1,2,3}
+# set2 = {2,3,4}
+# print(set1.union(set2))
+# print(set1.intersection(set2))
+
+
+marks = {}
+
+x = int(input("Enter Phy: "))
+marks.update({"Phy :": x})
+
+x = int(input("Enter Che: "))
+marks.update({"Che :": x})
+
+x = int(input("Enter math: "))
+marks.update({"math :": x})
+
+print(marks)
