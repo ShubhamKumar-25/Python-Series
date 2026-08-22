@@ -168,6 +168,10 @@
 # grad = ("A", "B", "A", "A", "C")
 # print(grad.count("C"))
 
-lts = ["A", "B", "A", "A", "C", "K", "O"]
-lts.sort()
-print(lts)
+# lts = ["A", "B", "A", "A", "C", "K", "O"]
+# lts.sort()
+# print(lts)
+
+num = list(map(int, input("Enter your number :").split()))
+num.sort()
+print(num)
