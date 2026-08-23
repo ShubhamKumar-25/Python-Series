@@ -8,15 +8,15 @@
 
 # print(info)
 
-info = {
-    "Name": "Rohan Gupta",
-    "Subjects": ["JAVA", "C++", "PYTHON", "JAVASCRIPT"],
-    "Topic": ("Dist", "Set"),
-    "Marks": 89.0,
-    "is_Student": True,
-    "City": "Motihari",
-    "age": {22} # that is exceptional
-}
+# info = {
+#     "Name": "Rohan Gupta",
+#     "Subjects": ["JAVA", "C++", "PYTHON", "JAVASCRIPT"],
+#     "Topic": ("Dist", "Set"),
+#     "Marks": 89.0,
+#     "is_Student": True,
+#     "City": "Motihari",
+#     "age": {22} # that is exceptional
+# }
 # print(info["Name"]) This approach is very wrong. ye yeha to chal ja raha hai but bade bade program karte time isse nahi likhte hai
 # print(info.get("Name")) ye ek best ways hai single val print karna ka. upper wala wrong ways hai
 # print(info)
@@ -26,22 +26,22 @@ info = {
 # print(info["Topic"])
 # print(info["age"])
 
-info1 = {
-    "Name": "Rohan Gupta",
-    "Marks": {
-        "Math": 65,
-        "Phy": 65,
-        "Che": 60
-    },
-    "address": {
-        "Country": "India",
-        "State": "Bihar",
-        "District": "Motihari",
-        "Village": "Nawada",
-        "Pin_code": 845417
-    },
-    "is_student": True
-}
+# info1 = {
+#     "Name": "Rohan Gupta",
+#     "Marks": {
+#         "Math": 65,
+#         "Phy": 65,
+#         "Che": 60
+#     },
+#     "address": {
+#         "Country": "India",
+#         "State": "Bihar",
+#         "District": "Motihari",
+#         "Village": "Nawada",
+#         "Pin_code": 845417
+#     },
+#     "is_student": True
+# }
 
 # print(info1["Marks"])
 # print(info1["address"])
@@ -111,6 +111,66 @@ info1 = {
 # }
 # print(values)
 
-nums = [1,2,3,5,6,7,8,9]
-for val in nums:
-    print(val)
+# nums = [1,2,3,5,6,7,8,9]
+# for val in nums:
+#     print(val)
+
+# vaggies = ['Patoto', 'brinjal', 'leadyfinger', 'cucumber']
+# for val in vaggies:
+#     print(val)
+
+
+# str = "RohanGupta"
+# for val in str:
+#     print(val)
+# else:
+#     print("End")
+
+
+# nums = [67,89,4,2,33,56,78,98,66,54,21]
+# for val in nums:
+#     print(val)
+
+
+# nums = (1,2,3,4,5,6,7,8,9,1)
+# t = 1
+# idx = 0
+# for i in nums:
+#     if (i == t):
+#         print("Found", idx)
+#         # break
+#     idx += 1
+
+
+# for val in range(2,10, 2):
+#     print(val)
+
+
+# for val in range(2, 101, 2):
+#     print(val)
+
+# 1 - 100
+# for val in range(1, 101):
+#     print(val)
+
+# 100 - 1
+# for val in range(100, 0, -1):
+#     print(val)
+
+# n = int(input("Enter your number: "))
+# for i in range(1, 11):
+#     print(i, "*", n, "=", i * n)
+
+
+# num = int(input("Enter your name: "))
+# sum = 0
+# for i in range(1, num+1):
+#     sum = sum + i
+# print("Total sum :", sum)
+
+
+num = int(input("Enter the number: "))
+f = 1
+for i in range(1, num+1):
+    f *= i
+print("Factorial is :", f)
