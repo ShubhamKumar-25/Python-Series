@@ -169,8 +169,14 @@
 # print("Total sum :", sum)
 
 
-num = int(input("Enter the number: "))
-f = 1
-for i in range(1, num+1):
-    f *= i
-print("Factorial is :", f)
+# num = int(input("Enter the number: "))
+# f = 1
+# for i in range(1, num+1):
+#     f *= i
+# print("Factorial is :", f)
+
+
+count  = 0
+while count<3:
+    print("Hello Rohan")
+    count += 1
