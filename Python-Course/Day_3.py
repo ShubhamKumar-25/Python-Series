@@ -92,15 +92,25 @@ info1 = {
 # print(set1.intersection(set2))
 
 
-marks = {}
+# marks = {}
+# x = int(input("Enter Phy: "))
+# marks.update({"Phy :": x})
 
-x = int(input("Enter Phy: "))
-marks.update({"Phy :": x})
+# x = int(input("Enter Che: "))
+# marks.update({"Che :": x})
 
-x = int(input("Enter Che: "))
-marks.update({"Che :": x})
+# x = int(input("Enter math: "))
+# marks.update({"math :": x})
 
-x = int(input("Enter math: "))
-marks.update({"math :": x})
+# print(marks)
 
-print(marks)
+
+# values = {
+#     ("int", 9),
+#     ("float", 9.0)
+# }
+# print(values)
+
+nums = [1,2,3,5,6,7,8,9]
+for val in nums:
+    print(val)
