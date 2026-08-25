@@ -17,9 +17,14 @@
 #     i += 1
 
 
-i = 1
-while i < 10:
-    print(i)
-    i += 1
-else:
-    print("Loop is end")
+# i = 1
+# while i < 10:
+#     print(i)
+#     i += 1
+# else:
+#     print("Loop is end")
+
+a = 20
+b = 20
+sum = a + b
+print(sum)
