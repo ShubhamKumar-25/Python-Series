@@ -35,7 +35,14 @@
 # print(sum(22,22))
 
 
-def print_hello():
-    print("Hey Rohan Gupta")
+# def print_hello():
+#     print("Hey Rohan Gupta")
 
-print_hello()
+# print_hello()
+
+def sum(a, b, c):
+    sum = a + b + c
+    ave = sum / 3
+    return ave
+
+print(sum(74, 33, 89))
