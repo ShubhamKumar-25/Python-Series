@@ -24,7 +24,12 @@
 # else:
 #     print("Loop is end")
 
-a = 20
-b = 20
-sum = a + b
-print(sum)
+# a = 20
+# b = 20
+# sum = a + b
+# print(sum)
+
+
+def sum(a, b):
+    return a + b
+print(sum(22,22))
