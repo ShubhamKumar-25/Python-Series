@@ -15,3 +15,9 @@ print("File successfully created and data written!")
 with open("Student_records.txt", 'a') as file:
     file.write("I am fullstack software develpoer \n")
 print("New Data append sucessfully")
+
+
+with open("Student_records.txt", "r") as file:
+    content = file.read()
+    print("-----Read file--------")
+    print(content)
