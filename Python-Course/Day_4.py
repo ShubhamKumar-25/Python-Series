@@ -49,11 +49,43 @@
 
 
 
-cities = ["Punjab", "mumbai", "mohali", "delhi", "noida", 'Pune']
-move = ["DDLG", "War", "Siddat", "Premalu", "Toxic", "interstelar", "Dhurandhar"]
+# cities = ["Punjab", "mumbai", "mohali", "delhi", "noida", 'Pune']
+# move = ["DDLG", "War", "Siddat", "Premalu", "Toxic", "interstelar", "Dhurandhar"]
+# def length_list(list):
+#     print(len(list))
+# # length_list(cities)
+# # length_list(move)
+# def print_list(list):
+#     for item in list:
+#         print(item , end=" ")
+# print_list(cities)
+# print_list(move)
 
-def length_list(list):
-    print(len(list))
 
-length_list(cities)
-length_list(move)
+# num = int(input("Enter your name: "))
+# facto = 1
+# for val in range(1, num + 1):
+#     facto *= val
+# print(facto)
+# num = int(input("Enter your number: "))
+# def factorialwa(num):
+#     facto = 1
+#     for val in range(1, num+1):
+#         facto *= val
+#     print(facto)
+# factorialwa(num)
+
+
+# def conveter(usd_val):
+#     ind_inr = usd_val * 95.44
+#     print(ind_inr)
+# conveter(5)
+
+
+num = int(input("Enter your number : "))
+def evenOdd(num):
+    if num % 2 == 0:
+        print("even")
+    else:
+        print("Odd")
+evenOdd(num)
