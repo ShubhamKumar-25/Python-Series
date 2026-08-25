@@ -40,9 +40,20 @@
 
 # print_hello()
 
-def sum(a, b, c):
-    sum = a + b + c
-    ave = sum / 3
-    return ave
+# def sum(a, b, c):
+#     sum = a + b + c
+#     ave = sum / 3
+#     return ave
 
-print(sum(74, 33, 89))
+# print(sum(74, 33, 89))
+
+
+
+cities = ["Punjab", "mumbai", "mohali", "delhi", "noida", 'Pune']
+move = ["DDLG", "War", "Siddat", "Premalu", "Toxic", "interstelar", "Dhurandhar"]
+
+def length_list(list):
+    print(len(list))
+
+length_list(cities)
+length_list(move)
