@@ -82,10 +82,19 @@
 # conveter(5)
 
 
-num = int(input("Enter your number : "))
-def evenOdd(num):
-    if num % 2 == 0:
-        print("even")
-    else:
-        print("Odd")
-evenOdd(num)
+# num = int(input("Enter your number : "))
+# def evenOdd(num):
+#     if num % 2 == 0:
+#         print("even")
+#     else:
+#         print("Odd")
+# evenOdd(num)
+
+
+# num = int(input("Enter your number: "))
+# def fact(num):
+#     if num == 0 or num == 1:
+#         return 1
+#     else:
+#         return num * fact(num - 1)
+# print(fact(num))
