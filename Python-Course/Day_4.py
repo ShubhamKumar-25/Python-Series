@@ -30,6 +30,12 @@
 # print(sum)
 
 
-def sum(a, b):
-    return a + b
-print(sum(22,22))
+# def sum(a, b):
+#     return a + b
+# print(sum(22,22))
+
+
+def print_hello():
+    print("Hey Rohan Gupta")
+
+print_hello()
