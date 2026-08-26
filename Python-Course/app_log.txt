@@ -1,3 +1,0 @@
-[2026-08-27 03:00:32] USER: Shubham | ACTION: Logged In
-[2026-08-27 03:00:32] USER: Shubham | ACTION: Executed Python Script
-[2026-08-27 03:00:32] USER: Shubham | ACTION: Logged Out

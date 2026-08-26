@@ -1,6 +1,0 @@
-Name: Shubham
-Course: B.Tech IT
-Status: Active
-Marks: 89
-City: Motihari
-I am fullstack software develpoer 

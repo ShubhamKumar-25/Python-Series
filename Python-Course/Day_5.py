@@ -27,25 +27,34 @@
 
 
 
-from datetime import datetime
+# from datetime import datetime
 
-def log_activity(username, action):
-    # Current date and time fetch karna
-    current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+# def log_activity(username, action):
+#     # Current date and time fetch karna
+#     current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     
-    # Formatted log entry
-    log_entry = f"[{current_time}] USER: {username} | ACTION: {action}\n"
+#     # Formatted log entry
+#     log_entry = f"[{current_time}] USER: {username} | ACTION: {action}\n"
     
-    # Append mode 'a' use karenge taki purana log save rahe
-    with open("app_log.txt", "a") as log_file:
-        log_file.write(log_entry)
+#     # Append mode 'a' use karenge taki purana log save rahe
+#     with open("app_log.txt", "a") as log_file:
+#         log_file.write(log_entry)
 
-# Log test cases
-log_activity("Shubham", "Logged In")
-log_activity("Shubham", "Executed Python Script")
-log_activity("Shubham", "Logged Out")
+# # Log test cases
+# log_activity("Shubham", "Logged In")
+# log_activity("Shubham", "Executed Python Script")
+# log_activity("Shubham", "Logged Out")
 
-# Ab logs check karte hain
-with open("app_log.txt", "r") as log_file:
-    print("\n--- Recent Logs ---")
-    print(log_file.read())
+# # Ab logs check karte hain
+# with open("app_log.txt", "r") as log_file:
+#     print("\n--- Recent Logs ---")
+#     print(log_file.read())
+
+
+# 1. Function Defining (Banaye hain)
+def greet():
+    print("Hello! Welcome to Python Functions Series.")
+
+# 2. Function Calling (Chala rahe hain)
+greet()
+greet()  # Reusability: jitni baar chaho call karo
