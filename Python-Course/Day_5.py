@@ -67,3 +67,15 @@ def user_welcome(name, course):
 # Dynamic inputs paas kar rahe hain (Arguments)
 user_welcome("Shubham", "B.Tech IT")
 user_welcome("Rahul", "Full-Stack Web Dev")
+
+
+def add_numbers(num1, num2):
+    result = num1 + num2
+    return result  # Value ko back bhej raha hai
+
+# Returned value ko variable me save kar sakte hain
+sum1 = add_numbers(10, 20)
+sum2 = add_numbers(50, 75)
+
+print("Sum 1:", sum1)
+print("Total:", sum1 + sum2)
