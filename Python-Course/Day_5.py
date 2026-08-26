@@ -57,4 +57,13 @@ def greet():
 
 # 2. Function Calling (Chala rahe hain)
 greet()
-greet()  # Reusability: jitni baar chaho call karo
+greet() 
+
+
+# 'name' aur 'course' yahan Parameters hain
+def user_welcome(name, course):
+    print(f"Welcome {name}! Your course is {course}.")
+
+# Dynamic inputs paas kar rahe hain (Arguments)
+user_welcome("Shubham", "B.Tech IT")
+user_welcome("Rahul", "Full-Stack Web Dev")
