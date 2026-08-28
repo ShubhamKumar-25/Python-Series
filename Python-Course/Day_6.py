@@ -31,19 +31,33 @@
 
 
 
+# class Student:
+#     def __init__(self, name, marks):
+#         self.name = name
+#         self.marks = marks
+#         print("Adding a new Element in database...")
+
+
+#     def welcome(self):
+#         print("Welcome student, ", self.name)
+
+# s1 = Student("Rahul", 89)
+# print(s1.name, s1.marks)
+
+# s2 = Student("Rohan", 90)
+# print(s2.name, s2.marks)
+# s2.welcome()
+
+
 class Student:
-    def __init__(self, name, marks):
-        self.name = name
-        self.marks = marks
-        print("Adding a new Element in database...")
+    def __init__(self, sub1, sub2, sub3):
+        self.sub1 = sub1
+        self.sub2 = sub2
+        self.sub3 = sub3
+        print("Printing marks...")
 
+    def average(self):
+        print((self.sub1 + self.sub2 + self.sub3) / 3)
 
-    def welcome(self):
-        print("Welcome student, ", self.name)
-
-s1 = Student("Rahul", 89)
-print(s1.name, s1.marks)
-
-s2 = Student("Rohan", 90)
-print(s2.name, s2.marks)
-s2.welcome()
+s1 = Student(87, 67, 89)
+s1.average()
