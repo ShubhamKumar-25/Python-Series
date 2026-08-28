@@ -37,6 +37,13 @@ class Student:
         self.marks = marks
         print("Adding a new Element in database...")
 
+
+    def welcome(self):
+        print("Welcome student, ", self.name)
+
 s1 = Student("Rahul", 89)
 print(s1.name, s1.marks)
 
+s2 = Student("Rohan", 90)
+print(s2.name, s2.marks)
+s2.welcome()
