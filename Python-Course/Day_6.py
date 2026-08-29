@@ -49,15 +49,30 @@
 # s2.welcome()
 
 
-class Student:
-    def __init__(self, sub1, sub2, sub3):
-        self.sub1 = sub1
-        self.sub2 = sub2
-        self.sub3 = sub3
-        print("Printing marks...")
+# class Student:
+#     def __init__(self, sub1, sub2, sub3):
+#         self.sub1 = sub1
+#         self.sub2 = sub2
+#         self.sub3 = sub3
+#         print("Printing marks...")
 
-    def average(self):
-        print((self.sub1 + self.sub2 + self.sub3) / 3)
+#     def average(self):
+#         print((self.sub1 + self.sub2 + self.sub3) / 3)
 
-s1 = Student(87, 67, 89)
-s1.average()
+# s1 = Student(87, 67, 89)
+# s1.average()
+
+
+class Car:
+    def __init__(self):
+        self.acc = False
+        self.brk = False
+        self.cluch = False
+
+    def Start(self):
+        self.cluch = True
+        self.acc = True
+        print("Car is Started....")
+
+c1 = Car()
+c1.Start()
