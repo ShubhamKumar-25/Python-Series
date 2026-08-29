@@ -63,16 +63,26 @@
 # s1.average()
 
 
-class Car:
-    def __init__(self):
-        self.acc = False
-        self.brk = False
-        self.cluch = False
+# class Car:
+#     def __init__(self):
+#         self.acc = False
+#         self.brk = False
+#         self.cluch = False
 
-    def Start(self):
-        self.cluch = True
-        self.acc = True
-        print("Car is Started....")
+#     def Start(self):
+#         self.cluch = True
+#         self.acc = True
+#         print("Car is Started....")
 
-c1 = Car()
-c1.Start()
+# c1 = Car()
+# c1.Start()
+
+
+
+class Account:
+    def __init__(self, bal, acc):
+        self.balance = bal
+        self.account = acc
+A1 = Account(2000, 1122)
+print(A1.balance)
+print(A1.account)
