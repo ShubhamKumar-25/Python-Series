@@ -85,17 +85,18 @@ class Account:
         self.account = acc
 
     def debit(self, amount):
-        self.amount -= amount
+        self.balance -= amount
         print("Rs", amount, "was debiated.")
         print("Your total balance is", self.get_balance())
 
     def credit(self, amount):
-        self.amount += amount
+        self.balance += amount
         print("Rs", amount, " is created in your account")
         print("Your total balance is", self.get_balance())
 
     def get_balance(self):
         return self.balance
 
-A1 = Account(2000, 1122)
-A1.get_balance()
+A1 = Account(6000, 1122)
+A1.debit(1000)
+A1.credit(5000)
