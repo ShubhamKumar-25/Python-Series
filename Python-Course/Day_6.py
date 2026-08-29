@@ -83,6 +83,19 @@ class Account:
     def __init__(self, bal, acc):
         self.balance = bal
         self.account = acc
+
+    def debit(self, amount):
+        self.amount -= amount
+        print("Rs", amount, "was debiated.")
+        print("Your total balance is", self.get_balance())
+
+    def credit(self, amount):
+        self.amount += amount
+        print("Rs", amount, " is created in your account")
+        print("Your total balance is", self.get_balance())
+
+    def get_balance(self):
+        return self.balance
+
 A1 = Account(2000, 1122)
-print(A1.balance)
-print(A1.account)
+A1.get_balance()
