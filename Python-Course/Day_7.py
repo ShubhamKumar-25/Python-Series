@@ -22,3 +22,14 @@ elif marks >= 75:
     print("Grade B")
 else:
     print("Grade C")
+
+
+# range(start, stop, step) -> range(5) generates numbers 0 to 4
+for i in range(5):
+    print(i)
+
+
+count = 0
+while count < 3:
+    print("Count is:", count)
+    count += 1
