@@ -44,3 +44,7 @@ students = [
 ]
 print(students[1]["name"])
 print(students)
+
+raw_labels = ["cat", "dog", "cat", "bird", "dog"]
+unique_labels = set(raw_labels) 
+print(unique_labels)
