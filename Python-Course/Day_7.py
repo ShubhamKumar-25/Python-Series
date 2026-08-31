@@ -42,4 +42,5 @@ students = [
     {"id": 101, "name": "Aman", "marks": 88},
     {"id": 102, "name": "Priya", "marks": 95}
 ]
-print(students[1]["name"])  
+print(students[1]["name"])
+print(students)
