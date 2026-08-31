@@ -48,3 +48,14 @@ print(students)
 raw_labels = ["cat", "dog", "cat", "bird", "dog"]
 unique_labels = set(raw_labels) 
 print(unique_labels)
+
+
+
+# Standard loop
+squares = []
+for x in range(10):
+    squares.append(x**2)
+
+# List Comprehension
+squares = [x**2 for x in range(10)]
+print(squares)
