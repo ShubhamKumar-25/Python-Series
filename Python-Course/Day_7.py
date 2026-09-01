@@ -113,26 +113,48 @@
 # print(A1.sleep())
 
 # single inheritance -> Now we can create simple single inheritance example. 
-class Vehicle:
-    def __init__(self, brand, model):
-        self.brand = brand
-        self.model = model
+# class Vehicle:
+#     def __init__(self, brand, model):
+#         self.brand = brand
+#         self.model = model
 
-    def start_engine(self):
-        return f"{self.brand} {self.model} engine started."
+#     def start_engine(self):
+#         return f"{self.brand} {self.model} engine started."
 
-    def stop_engine(self):
-        return f"{self.brand} {self.model} engine stopped."
+#     def stop_engine(self):
+#         return f"{self.brand} {self.model} engine stopped."
 
-class Car(Vehicle):
-    def __init__(self, brand, model, num_doors):
-        super().__init__(brand, model)
-        self.num_doors = num_doors
+# class Car(Vehicle):
+#     def __init__(self, brand, model, num_doors):
+#         super().__init__(brand, model)
+#         self.num_doors = num_doors
 
-    def honk(self):
-        return f"{self.brand} {self.model} is honking!"
+#     def honk(self):
+#         return f"{self.brand} {self.model} is honking!"
 
-Car1 = Car("Toyota", "Camry", 4)
-print(Car1.start_engine())  # Inherited method
-print(Car1.honk())  # Car's own method
-print(Car1.stop_engine())  # Inherited method
+# Car1 = Car("Toyota", "Camry", 4)
+# print(Car1.start_engine())  # Inherited method
+# print(Car1.honk())  # Car's own method
+# print(Car1.stop_engine())  # Inherited method
+
+
+# How many types of inheritance are there in python?
+# The types of inheritance in Python are:
+# single inheritance, multiple inheritance, multilevel inheritance, hierarchical inheritance, and hybrid inheritance.
+# Now We will see the example of multilevel inheritance in python, with easy and short code.
+class Parent1:
+    def method1(self):
+        return "This is method 1 from Parent1"
+
+class Parent2(Parent1):
+    def method2(self):
+        return "This is method 2 from Parent2"
+
+class Child(Parent2):
+    def method3(self):
+        return "This is method 3 from Child"
+
+C1 = Child()
+print(C1.method1())
+print(C1.method2())
+print(C1.method3())
