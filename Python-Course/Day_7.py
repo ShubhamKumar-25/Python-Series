@@ -142,19 +142,19 @@
 # The types of inheritance in Python are:
 # single inheritance, multiple inheritance, multilevel inheritance, hierarchical inheritance, and hybrid inheritance.
 # Now We will see the example of multilevel inheritance in python, with easy and short code.
-class Parent1:
-    def method1(self):
-        return "This is method 1 from Parent1"
+# class Parent1:
+#     def method1(self):
+#         return "This is method 1 from Parent1"
 
-class Parent2(Parent1):
-    def method2(self):
-        return "This is method 2 from Parent2"
+# class Parent2(Parent1):
+#     def method2(self):
+#         return "This is method 2 from Parent2"
 
-class Child(Parent2):
-    def method3(self):
-        return "This is method 3 from Child"
+# class Child(Parent2):
+#     def method3(self):
+#         return "This is method 3 from Child"
 
-C1 = Child()
-print(C1.method1())
-print(C1.method2())
-print(C1.method3())
+# C1 = Child()
+# print(C1.method1())
+# print(C1.method2())
+# print(C1.method3())
