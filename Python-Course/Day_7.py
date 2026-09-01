@@ -89,25 +89,50 @@
 
 
 # inheritance
-class Animal:
-    @staticmethod
-    def make_sound():
-        return "Some generic animal sound"
+# class Animal:
+#     @staticmethod
+#     def make_sound():
+#         return "Some generic animal sound"
 
-    @staticmethod
-    def eat():
-        return "Animal is eating"
+#     @staticmethod
+#     def eat():
+#         return "Animal is eating"
 
-    @staticmethod
-    def sleep():
-        return "Animal is sleeping"
+#     @staticmethod
+#     def sleep():
+#         return "Animal is sleeping"
 
-class Dog(Animal):
-    def __init__(self, name):
-        self.name = name
+# class Dog(Animal):
+#     def __init__(self, name):
+#         self.name = name
 
-A1 = Dog("Buddy")
-print(A1.name) 
-print(A1.make_sound())  # Inherited method
-print(A1.eat())
-print(A1.sleep())
+# A1 = Dog("Buddy")
+# print(A1.name) 
+# print(A1.make_sound())  # Inherited method
+# print(A1.eat())
+# print(A1.sleep())
+
+# single inheritance -> Now we can create simple single inheritance example. 
+class Vehicle:
+    def __init__(self, brand, model):
+        self.brand = brand
+        self.model = model
+
+    def start_engine(self):
+        return f"{self.brand} {self.model} engine started."
+
+    def stop_engine(self):
+        return f"{self.brand} {self.model} engine stopped."
+
+class Car(Vehicle):
+    def __init__(self, brand, model, num_doors):
+        super().__init__(brand, model)
+        self.num_doors = num_doors
+
+    def honk(self):
+        return f"{self.brand} {self.model} is honking!"
+
+Car1 = Car("Toyota", "Camry", 4)
+print(Car1.start_engine())  # Inherited method
+print(Car1.honk())  # Car's own method
+print(Car1.stop_engine())  # Inherited method
