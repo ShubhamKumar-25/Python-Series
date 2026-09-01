@@ -37,25 +37,39 @@
 
 
 
-# Processing JSON-like API data using List of Dicts
-students = [
-    {"id": 101, "name": "Aman", "marks": 88},
-    {"id": 102, "name": "Priya", "marks": 95}
-]
-print(students[1]["name"])
-print(students)
+# # Processing JSON-like API data using List of Dicts
+# students = [
+#     {"id": 101, "name": "Aman", "marks": 88},
+#     {"id": 102, "name": "Priya", "marks": 95}
+# ]
+# print(students[1]["name"])
+# print(students)
 
-raw_labels = ["cat", "dog", "cat", "bird", "dog"]
-unique_labels = set(raw_labels) 
-print(unique_labels)
+# raw_labels = ["cat", "dog", "cat", "bird", "dog"]
+# unique_labels = set(raw_labels) 
+# print(unique_labels)
 
 
 
-# Standard loop
-squares = []
-for x in range(10):
-    squares.append(x**2)
+# # Standard loop
+# squares = []
+# for x in range(10):
+#     squares.append(x**2)
 
-# List Comprehension
-squares = [x**2 for x in range(10)]
-print(squares)
+# # List Comprehension
+# squares = [x**2 for x in range(10)]
+# print(squares)
+
+
+class Person:
+    def __init__(self):
+        self.name = "Rohan Gupta"
+        self.age = 25
+        self.city = "New Delhi"
+
+Person1 = Person()
+print(Person1.name)
+print(Person1.age)
+print(Person1.city)
+del Person1.age
+# print(Person1.age)  # This will raise an AttributeError since 'age' has been deleted
