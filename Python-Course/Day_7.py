@@ -61,15 +61,28 @@
 # print(squares)
 
 
-class Person:
-    def __init__(self):
-        self.name = "Rohan Gupta"
-        self.age = 25
-        self.city = "New Delhi"
+# class Person:
+#     def __init__(self):
+#         self.name = "Rohan Gupta"
+#         self.age = 25
+#         self.city = "New Delhi"
 
-Person1 = Person()
-print(Person1.name)
-print(Person1.age)
-print(Person1.city)
-del Person1.age
-# print(Person1.age)  # This will raise an AttributeError since 'age' has been deleted
+# Person1 = Person()
+# print(Person1.name)
+# print(Person1.age)
+# print(Person1.city)
+# del Person1.age
+# # print(Person1.age)  # This will raise an AttributeError since 'age' has been deleted
+
+class Account:
+    def __init__(self, account_number, account_password):
+        self.account_number = account_number
+        self.__account_password = account_password  # Private attribute
+        self.__account_balance = 0.0  # Private attribute
+
+    def reset_pass(self, new_password):
+        self.__account_password = new_password
+A1 = Account("123456789", "securepassword")
+print(A1.account_number)  # This will work
+# print(A1.__account_password)  # This will raise an AttributeError since '__account_password' is private
+A1.reset_pass("newsecurepassword")  # This will work
