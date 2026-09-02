@@ -1,3 +1,4 @@
+# Inheritance in Python
 # Single Inheritance
 class Phone:
     def call(self):
@@ -100,3 +101,30 @@ tv = SmartTV()
 print(tv.power_on())  # Device se
 print(tv.sound())  # Speaker se
 print(tv.show())  # Display se
+
+print("------------------------------------------")
+
+# Encapsulation in Python
+class BankAccount:
+    def __int__(self, balance):
+        self.__balance = balance # Private attribute:
+
+    def deposit(self, amount):
+        if amount > 0:
+            self.__balance += amount
+            return f"Deposited: {amount}. New balance: {self.__balance}."
+
+    def withdraw(self, amount):
+        if 0 < amount <= self.__balance:
+            self.__balance -= amount
+            return f"Withdrew: {amount}. New balance: {self.__balance}."
+        else:
+            return "Insufficient balance."
+
+    def get_balance(self):
+        return f"Current balance: {self.__balance}."
+
+acc = BankAccount(1000)
+acc.deposit(1000)
+acc.withdraw(500)
+print(acc.get_balance())
