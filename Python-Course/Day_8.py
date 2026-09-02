@@ -160,3 +160,30 @@ print(car2.start_engine())
 
 car3 = HybridCar()
 print(car3.start_engine())
+
+print("------------------------------------------")
+
+# polymorphism in Python
+
+class UPIPayment:
+    def pay(self, amount):
+        return f"Paid {amount} pay using UPI Scanner."
+
+class CardPayment:
+    def pay(self, amount):
+        return f"Paid {amount} pay using Card OTP."
+
+class CashPayment:
+    def pay(self, amount):
+        return f"Paid {amount} pay using Cash, and received change."
+
+def process_payment(payment_method, amount):
+    print(payment_method.pay(amount))
+
+upi = UPIPayment()
+card = CardPayment()
+cash = CashPayment()
+
+process_payment(upi, 1000)
+process_payment(card, 2000)
+process_payment(cash, 500)
