@@ -1,3 +1,4 @@
+from abc import ABC, abstractmethod
 # Inheritance in Python
 # Single Inheritance
 class Phone:
@@ -128,3 +129,34 @@ acc = BankAccount(1000)
 acc.deposit(1000)
 acc.withdraw(500)
 print(acc.get_balance())
+
+
+print("------------------------------------------")
+
+# Abstraction in Python
+class Car(ABC):
+    @abstractmethod
+    def start_engine(self):
+        pass
+
+class ElectricCar(Car):
+    def start_engine(self):
+        return "Electric car engine started silently."
+
+class GasolineCar(Car):
+    def start_engine(self):
+        return "Gasoline car engine started with a roar."
+
+class HybridCar(ElectricCar, GasolineCar):
+    def start_engine(self):
+        return "Hybrid car engine started with a combination of electric and gasoline power."
+
+
+car = ElectricCar()
+print(car.start_engine())
+
+car2 = GasolineCar()
+print(car2.start_engine())
+
+car3 = HybridCar()
+print(car3.start_engine())
