@@ -106,7 +106,7 @@ print("------------------------------------------")
 
 # Encapsulation in Python
 class BankAccount:
-    def __int__(self, balance):
+    def __init__(self, balance):
         self.__balance = balance # Private attribute:
 
     def deposit(self, amount):
