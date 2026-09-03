@@ -168,3 +168,12 @@ def calculate_accuracy(correct, total):
 # Function Call
 result = calculate_accuracy(85, 100)
 print(result) 
+
+
+# lambda arguments: expression
+def square(x):
+    return x ** 2
+
+square_lambda = lambda x: x ** 2
+print(square_lambda(72))
+print(square(72)) 
