@@ -167,4 +167,4 @@ def calculate_accuracy(correct, total):
 
 # Function Call
 result = calculate_accuracy(85, 100)
-print(result)  # Output: 85.0
+print(result) 
