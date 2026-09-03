@@ -176,4 +176,10 @@ def square(x):
 
 square_lambda = lambda x: x ** 2
 print(square_lambda(72))
-print(square(72)) 
+# print(square(72)) 
+
+# *args (Positional Arguments): Receives extra non-keyword arguments as a Tuple.
+def add_all_score(*scores):
+    return sum(scores)
+print(add_all_score(10, 20, 30, 40))  
+print(add_all_score(90, 80, 95, 81))
