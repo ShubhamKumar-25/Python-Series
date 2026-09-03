@@ -158,3 +158,13 @@
 # print(C1.method1())
 # print(C1.method2())
 # print(C1.method3())
+
+
+# Function Definition
+def calculate_accuracy(correct, total):
+    accuracy = (correct / total) * 100
+    return accuracy
+
+# Function Call
+result = calculate_accuracy(85, 100)
+print(result)  # Output: 85.0
