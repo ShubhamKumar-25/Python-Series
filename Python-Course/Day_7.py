@@ -183,3 +183,16 @@ def add_all_score(*scores):
     return sum(scores)
 print(add_all_score(10, 20, 30, 40))  
 print(add_all_score(90, 80, 95, 81))
+
+
+
+
+# def train_model(model_name, **hyperparameters):
+#     print(f"Training Model: {model_name}")
+#     print("Hyperparameters:", hyperparameters)
+
+# Calling with arbitrary named arguments
+# train_model("RandomForest", n_estimators=100, max_depth=5, learning_rate=0.01)
+# Output:
+# Training Model: RandomForest
+# Hyperparameters: {'n_estimators': 100, 'max_depth': 5, 'learning_rate': 0.01}
