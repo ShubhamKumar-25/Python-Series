@@ -8,9 +8,5 @@
 # marks = 98
 # print(marks)
 
-
-name = "Shubham Kumar"
-age = 22
-cgpa = 7.6
-print(name, age)
-print(type(cgpa))
+num = int(input("Enter your number : "))
+print("Your number is :",num)
