@@ -8,5 +8,13 @@
 # marks = 98
 # print(marks)
 
-num = int(input("Enter your number : "))
-print("Your number is :",num)
+# num = int(input("Enter your number : "))
+# print("Your number is :",num)
+
+age = int(input("Enter your age: "))
+
+# age = int(age)+1
+print(type(age))
+
+name = str(input("Enter your name :"))
+print(type(name))
