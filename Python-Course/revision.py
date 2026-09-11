@@ -11,4 +11,6 @@
 
 name = "Shubham Kumar"
 age = 22
+cgpa = 7.6
 print(name, age)
+print(type(cgpa))
