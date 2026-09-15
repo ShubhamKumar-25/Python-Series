@@ -32,3 +32,25 @@ ecar = ElectricCar()
 ecar.start()
 ecar.drive()
 ecar.charge()
+
+print("--------------------------------")
+
+class Animal:
+    def eat(self):
+        print("Animal is eating...")
+
+class Dog(Animal):
+    def bark(self):
+        print("Dog is barking...")
+
+class Cat(Animal):
+    def meow(self):
+        print("Cat is meowing...")
+
+dog = Dog()
+dog.eat()
+dog.bark()
+
+cat = Cat()
+cat.eat()
+cat.meow()
