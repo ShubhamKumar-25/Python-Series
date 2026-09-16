@@ -72,3 +72,5 @@ class smartPhone2(Camera, musicPlayer):
 sp2 = smartPhone2()
 sp2.take_photo()
 sp2.play_music()
+
+# oops concept
