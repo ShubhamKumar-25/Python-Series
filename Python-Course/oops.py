@@ -74,3 +74,4 @@ sp2.take_photo()
 sp2.play_music()
 
 # oops concept
+print("====================================================")
