@@ -18,3 +18,12 @@ print(type(age))
 
 name = str(input("Enter your name :"))
 print(type(name))
+
+
+def add_numbers(a, b):
+    result = a + b
+    return result
+
+# Calling the function
+total = add_numbers(5, 10)
+print(total)  # Output: 15
