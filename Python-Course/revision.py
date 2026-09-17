@@ -27,3 +27,11 @@ def add_numbers(a, b):
 # Calling the function
 total = add_numbers(5, 10)
 print(total)  # Output: 15
+
+
+
+def greet(name, greeting="Hello"):
+    return f"{greeting}, {name}!"
+
+print(greet("Shubham"))           # Output: Hello, Shubham!
+print(greet("Shubham", "Welcome")) # Output: Welcome, Shubham!
